@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Massimo Dassano | Senior Sales & Business Development Manager',
-  description: 'Senior Manager with 15+ years of international experience in B2B sales planning, strategic partnerships, and global business development.',
+  title: 'Alessandro Marcello | Business & Marketing Leader',
+  description: 'Business and Marketing leader with 13+ years of experience driving market entry, revenue growth, and go-to-market execution across Europe and Asia.',
   generator: 'v0.app',
   icons: {
     icon: [
