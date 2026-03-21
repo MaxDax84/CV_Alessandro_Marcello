@@ -10,6 +10,21 @@ export const metadata: Metadata = {
   title: 'Alessandro Marcello | Business & Marketing Leader',
   description: 'Business and Marketing leader with 13+ years of experience driving market entry, revenue growth, and go-to-market execution across Europe and Asia.',
   generator: 'v0.app',
+  metadataBase: new URL('https://www.alessandromarcello.it'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Alessandro Marcello | Business & Marketing Leader',
+    description: 'Business and Marketing leader with 13+ years of experience driving market entry, revenue growth, and go-to-market execution across Europe and Asia.',
+    url: 'https://www.alessandromarcello.it',
+    siteName: 'Alessandro Marcello',
+    locale: 'en_US',
+    type: 'profile',
+  },
+  verification: {
+    google: 'Ii9Jhp1EXoiJHm_oAl0Hy87mUiTwMI9J2rBVB_FjWrc',
+  },
   icons: {
     icon: [
       {
