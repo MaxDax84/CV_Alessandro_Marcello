@@ -50,10 +50,12 @@ export function Navigation() {
           ))}
         </div>
         <a
-          href="mailto:alessandro.marcello@bocconialumni.it"
+          href="https://www.linkedin.com/in/alessandromarcello1987/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-sm text-primary hover:text-primary/80 transition-colors"
         >
-          Contact
+          LinkedIn
         </a>
       </div>
     </nav>
