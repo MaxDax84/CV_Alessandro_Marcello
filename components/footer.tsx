@@ -1,6 +1,7 @@
 "use client"
 
 import { Linkedin, MapPin } from "lucide-react"
+import { ContactReveal } from "@/components/contact-reveal"
 
 export function Footer() {
   return (
@@ -16,7 +17,7 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">
             <a
               href="https://www.linkedin.com/in/alessandromarcello1987/"
               target="_blank"
@@ -26,6 +27,7 @@ export function Footer() {
               <Linkedin className="w-4 h-4" />
               <span>LinkedIn</span>
             </a>
+            <ContactReveal encodedEmail="ti.inmulainoccob@ollecram.ordnassela" />
           </div>
         </div>
 
