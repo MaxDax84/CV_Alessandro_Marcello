@@ -37,6 +37,17 @@ export function Footer() {
             <span>Milan, Italy</span>
           </div>
           <p>© {new Date().getFullYear()} Alessandro Marcello. All rights reserved.</p>
+          <p>
+            Site by{" "}
+            <a
+              href="https://www.massimodassano.it"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-foreground transition-colors"
+            >
+              Massimo Dassano
+            </a>
+          </p>
         </div>
       </div>
     </footer>
