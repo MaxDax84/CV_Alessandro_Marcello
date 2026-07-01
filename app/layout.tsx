@@ -25,23 +25,22 @@ export const metadata: Metadata = {
   verification: {
     google: 'Ii9Jhp1EXoiJHm_oAl0Hy87mUiTwMI9J2rBVB_FjWrc',
   },
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+}
+
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Alessandro Marcello',
+  jobTitle: 'Business & Marketing Leader',
+  description:
+    'Business and Marketing leader with 13+ years of experience driving market entry, revenue growth, and go-to-market execution across Europe and Asia.',
+  url: 'https://www.alessandromarcello.it',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Milan',
+    addressCountry: 'IT',
   },
+  sameAs: ['https://www.linkedin.com/in/alessandromarcello1987/'],
 }
 
 export default function RootLayout({
@@ -52,6 +51,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans antialiased">
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         {children}
         <Analytics />
       </body>
