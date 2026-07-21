@@ -25,6 +25,14 @@ export const metadata: Metadata = {
   verification: {
     google: 'Ii9Jhp1EXoiJHm_oAl0Hy87mUiTwMI9J2rBVB_FjWrc',
   },
+  icons: {
+    icon: [
+      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
+      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
+      { url: '/favicon.ico', sizes: '48x48' },
+    ],
+    apple: '/apple-icon.png',
+  },
 }
 
 const personJsonLd = {
